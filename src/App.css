@@ -1,4 +1,1 @@
-@font-face {
-  font-family: myNeucha;
-  src: url(fonts/Neucha/Neucha.ttf) format("truetype");
-}
+@import url("https://fonts.googleapis.com/css?family=Neucha");

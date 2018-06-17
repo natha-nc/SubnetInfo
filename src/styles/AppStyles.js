@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 70%;
   position: relative;
   top: 70px;
-  font-family: myNeucha;
+  font-family: Neucha;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -41,10 +41,8 @@ export const Input = styled.input.attrs({
   type: "text"
 })`
   padding: 10px;
-  border: 3px solid black;
   font-size: 2.5em;
   margin: 7px;
-  focus: black;
   text-align: center;
   margin-top: 75px;
   width: 350px;
@@ -52,8 +50,9 @@ export const Input = styled.input.attrs({
   background-color: black;
   color: yellow;
   &:focus {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: yellow;
+    border: 3px solid black;
   }
 
   ::-webkit-inner-spin-button,

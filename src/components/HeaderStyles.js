@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import "../App.css";
 
 export const Container = styled.div`
   padding:0px;
@@ -8,9 +9,9 @@ export const Container = styled.div`
   width: 100%;
   background:linear-gradient( to bottom, black, black );
   position: fixed;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 3px 10px black;
   z-index: 10;
-  font-family:myNeucha
+  font-family:Neucha
 
     @media (max-width:768px) {
         #ipInfo {
