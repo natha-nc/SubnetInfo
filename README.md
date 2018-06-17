@@ -1,2 +1,0 @@
-# SubnetInfo
-Created with CodeSandbox
